@@ -1,0 +1,72 @@
+.icon-button {
+  position: fixed;
+  top: 20%; /* 상단 여백 조정 */
+  left: 10%; /* 왼쪽 여백 조정 */
+  background-color: transparent;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  /*padding: 30px;
+  */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.icon-button:hover {
+  background-color: rgba(255, 255, 255, 0.07); /* Hover 시에 약간의 투명한 흰색 배경을 추가합니다. */  
+}
+
+body {
+  
+  margin: 0;
+  padding: 0;
+  background-image: url('../../images/Background/background2.png'); /* 이미지 경로에 맞게 수정 */
+  background-size: cover ;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.MainTitle {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+}
+
+.CardList {
+  padding: 20px; 
+  list-style-type: none;
+  margin : 5;
+  position: absolute;
+  
+}
+
+
+.ListMargin{
+  font-family: 'Dancing Script', cursive;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.ListMargin:hover{
+  background-color: rgba(255, 255, 255, 0.07);
+}
+
+.ListButton{
+  position: relative;
+  width: 200px;
+  padding: 10px;
+  
+}
+
+
+
+.CloseButton {
+  font-family: Arial, sans-serif;
+  position: absolute;
+  font-size: 30px;
+  color: rgb(214, 231, 231);
+  margin-top: auto;
+  top: 8%;
+  left: 97%;
+  right: 5px;
+  background-color: rgba(44, 44, 52, 0.8);
+}

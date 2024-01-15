@@ -1,0 +1,9 @@
+map 함수란 배열의 각 요소에 대해 주어진 함수를 호출하고 그 결과로 새로운 배열을 생성합니다.
+이 함수는 반복 작업을 간편하게 하고 새로운 배열을 만들 때 매우 효과적입니다.
+
+const numbers = [1, 2, 3, 4, 5];
+
+// 각 숫자를 두 배로 만드는 새로운 배열 생성
+const doubledNumbers = numbers.map((number) => number * 2);
+
+console.log(doubledNumbers); // 출력: [2, 4, 6, 8, 10]

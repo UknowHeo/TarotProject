@@ -1,0 +1,142 @@
+[class^="card"] {
+    width: 170px;
+    height: 280px;
+    background-size: cover;
+    transition: all 0.1s;
+    border: 5px solid white;
+    position: relative;
+    display: inline-block;
+    vertical-align: top; /* 상단 정렬을 위해 추가 */
+    margin: 3%;
+    cursor: pointer;
+    z-index: 0; /* 이미지는 z-index가 가장 낮게 설정됨 */
+}
+.card0 {
+    background-image: url('../../images/Tarot_Image/major/0TheFool1.jpg');
+}
+.card1 {
+    background-image: url('../../images/Tarot_Image/major/1TheMagician.jpg');
+}
+.card2 {
+    background-image: url('../../images/Tarot_Image/major/2TheHighPriestess.jpg');
+}
+.card3 {
+    background-image: url('../../images/Tarot_Image/major/3TheEmpress.jpg');
+}
+.card4 {
+    background-image: url('../../images/Tarot_Image/major/4TheEmperor.jpg');
+}
+.card5 {
+    background-image: url('../../images/Tarot_Image/major/5TheHireophant.jpg');
+}
+.card6 {
+    background-image: url('../../images/Tarot_Image/major/6TheLovers.jpg');
+}
+.card7 {
+    background-image: url('../../images/Tarot_Image/major/7Chariot.jpg');
+}
+.card8 {
+    background-image: url('../../images/Tarot_Image/major/8Strength.jpg');
+}
+.card9 {
+    background-image: url('../../images/Tarot_Image/major/9TheHermit.jpg');
+}
+.card10 {
+    background-image: url('../../images/Tarot_Image/major/10WheelOfFortune.jpg');
+}
+.card11 {
+    background-image: url('../../images/Tarot_Image/major/11Justice.jpg');
+}
+.card12 {
+    background-image: url('../../images/Tarot_Image/major/12TheHangedMan.jpg');
+}
+.card13 {
+    background-image: url('../../images/Tarot_Image/major/13Death.jpg');
+}
+.card14 {
+    background-image: url('../../images/Tarot_Image/major/14Temperance.jpg');
+}
+.card15 {
+    background-image: url('../../images/Tarot_Image/major/15TheDevil.jpg');
+}
+.card16 {
+    background-image: url('../../images/Tarot_Image/major/16TheTower.jpg');
+}
+.card17 {
+    background-image: url('../../images/Tarot_Image/major/17TheStar.jpg');
+}
+.card18 {
+    background-image: url('../../images/Tarot_Image/major/18TheMoon.jpg');
+}
+.card19 {
+    background-image: url('../../images/Tarot_Image/major/19TheSun.jpg');
+}
+.card20 {
+    background-image: url('../../images/Tarot_Image/major/20Judgement.jpg');
+}
+.card21 {
+    background-image: url('../../images/Tarot_Image/major/21TheWorld.jpg');
+}
+
+
+.MajorCardTitle {
+   
+    font-family: 'Arial'; /* 다른 글씨체로 변경 가능 */
+    font-size: 17px; /* 원하는 크기로 조절 가능 */
+    max-width: 250px;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    vertical-align: initial; /* 상단 정렬을 위해 추가 */
+    display: inline-block;
+    margin: 3%;
+    
+}
+.MajorList {
+    display: flex;
+    width: 100%;
+    height : 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    border: 2px solid #4a90e2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+  }
+  
+.BlueSquare {
+    width: 100%;
+    height: 85%;
+    background-color: rgba(44, 44, 52, 0.8);
+    margin: 0px;
+    cursor: auto;
+    display: flex;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+    flex-wrap: wrap; /* 가로로 나열되며 필요할 때 줄 바꿈 */
+    max-height: max-content; /* 원하는 높이로 설정 (스크롤이 필요한 경우) */
+    overflow-y: auto; /* 세로 스크롤이 필요한 경우만 표시 */
+    padding: 10px; /* 카드 간격을 조절할 수 있습니다. */
+    
+  }
+
+
+.BlueSquare::-webkit-scrollbar{
+    display : none;
+  }
+
+.info {
+    position: absolute;
+    bottom: 100;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    background-color: #111;
+    padding: 10px;
+    border: 1px solid #ccc;
+    z-index: 1; /* CardInfo는 이미지 위로 올라감 */
+ }
